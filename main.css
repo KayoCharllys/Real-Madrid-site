@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #e8c412;
+    color: #ffffff;
+    font-family: bungee;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+     align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    color: #e8c412;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    font-size: 26px;
+    font-family: bungee;
+}
+
+section h3 {
+    color: #e8c412;
+    margin-left: 16px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: Roboto;
+}
+
+section p {
+    font-size: 20px;
+    margin-left: 16px;
+    display: flex;
+    margin-bottom: 8px;
+    font-family: Roboto;
+}
+
+section {
+    color: #000000;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-realmadrid {
+    height: 450px;
+    margin-left: 32px;
+    margin-top: 60px;
+}
+
+#title img {
+    height: 200px;
+    margin-left: 24px;
+    width: 350px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+#games img {
+    height: 300px;
+    margin-left: 16px;
+}
+
+footer {
+    background-color: #e8c412;
+    padding: 18px;
+    color: #fff;
+}
+
+form input,
+textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    background-color: #e8c412;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+form button:hover {
+    background-color: #fcdb36;
+}
+
+input:focus, textarea:focus {
+    outline-color: #e8c412;
+}
+
+.games {
+    display: flex;
+    align-items: flex-end;
+}
+
+#games p {
+    margin-top: 16px;
+}
+
+form {
+    margin-left: 24px;
+}
